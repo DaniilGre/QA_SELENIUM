@@ -59,8 +59,8 @@ def getAnswerCode(browser):
 # в параметрах: экземпляр драйвера и ответ на задание
 def uploadAnswerToStep(browser, answer):
     # вводим куки от сессии
-    cookie_session = {'name': 'sessionid', 'value': '1aczjroga1a7x5g9vmxdyafu6inm07n6'}
-    cookie_token = {'name': 'csrftoken', 'value': 'RKtwIs6Fh7KFh1mmZGlQF2lxCZU3jqWaxwezOVgrDOIJYnX7cXUR1kuDTYkdhBhS'}
+    cookie_session = {'name': 'sessionid', 'value': 'xx6'}
+    cookie_token = {'name': 'csrftoken', 'value': 'xxxS'}
 
     # первый раз заходим для закачки куки
     # step_link - глобальная переменнная
